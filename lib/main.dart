@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pkl_kievit/intro.dart';
+import 'package:pkl_kievit/intro_slide.dart';
 
 void main() => runApp(App());
 
@@ -16,8 +16,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Introduction screen',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: OnBoardingPage(),
+      home: Landing(),
     );
   }
 }
