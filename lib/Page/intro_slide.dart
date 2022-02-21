@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:introduction_screen/introduction_screen.dart';
 import 'package:pkl_kievit/button_started.dart';
-import 'package:pkl_kievit/home.dart';
 
 class Landing extends StatefulWidget {
   @override
