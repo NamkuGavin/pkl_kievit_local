@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pkl_kievit/intro_slide.dart';
+import 'package:pkl_kievit/Page/splash_screen_page.dart';
 
 void main() => runApp(App());
 
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Introduction screen',
       debugShowCheckedModeBanner: false,
-      home: Landing(),
+      home: SplashScreenPage(),
     );
   }
 }
